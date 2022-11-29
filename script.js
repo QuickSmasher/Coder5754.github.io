@@ -14,3 +14,7 @@ $(document).on("ready", function () {
     $(".cookie-overlay").removeClass("d-block").addClass("d-none");
   });
 });
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
